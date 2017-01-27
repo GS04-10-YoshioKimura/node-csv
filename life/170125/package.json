@@ -1,0 +1,11 @@
+{
+  "name": "npm",
+  "bin": "export.js",
+  "scripts" : {
+    "export": "node ./export.js test"
+  },
+  "devDependencies": {
+    "iconv": "^2.2.1",
+    "immutable": "^3.8.1"
+  }
+}

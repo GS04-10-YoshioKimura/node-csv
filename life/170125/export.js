@@ -31,7 +31,6 @@ const FILE = path.join('20170125', '20170126130818.csv');
 readFile(FILE);
 //console.log(readFile(FILE));
 
-//-----ここから------------------------------------
 
 const KEY_COMPANY = 'company';
 const KEY_ID = 'id';

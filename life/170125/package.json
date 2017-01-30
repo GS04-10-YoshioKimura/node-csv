@@ -1,11 +1,16 @@
 {
   "name": "npm",
   "bin": "export.js",
-  "scripts" : {
+  "scripts": {
     "export": "node ./export.js test"
   },
   "devDependencies": {
     "iconv": "^2.2.1",
     "immutable": "^3.8.1"
+  },
+  "dependencies": {
+    "csv-parse": "^1.2.0",
+    "json2csv": "^3.7.3",
+    "lodash": "^2.4.1"
   }
 }
